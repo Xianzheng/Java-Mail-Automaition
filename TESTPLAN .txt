@@ -1,0 +1,56 @@
+This test plan is avaible running under Linux system
+I use smtp.gmail.com as Server
+fangxianzheng1234@gmail.com as UserName
+a334957974 as password to test my code
+and This account is already in less security condition
+-------------------------------------------------------------
+
+For the part1 of PARTC
+
+It needs to go to the ROOT like.../COMP_348_A4/PartC/part1
+
+javac -classpath .:lib/activation.jar:lib/mail.jar *.java
+java -classpath .:lib/activation.jar:lib/mail.jar SendEmail thisfile.txt
+
+The format in thisfile can not change;
+
+Server User Password is already in less secure, so it is best not be changed.
+
+the context of To CC BCC Subject Boday can be changed.
+
+the context of To and CC should be valid.
+
+--------------------------------------------------------------
+For the part2 of PARTC
+
+It needs to go to the ROOT like.../COMP_348_A4/PartC/part2
+
+javac -classpath .:lib/activation.jar:lib/mail.jar *.java
+java -classpath .:lib/activation.jar:lib/mail.jar SendEmail thisfile.txt
+
+
+The format in thisfile can not change;
+
+Server User Password is already in less secure, so it is best not be changed;
+
+the context of To CC BCC Subject Boday can be changed;
+
+the context of To and CC should be valid;
+
+Part2 is almost same with part1. It just send more attachment file to the receiver.
+
+--------------------------------------------------------------------------
+For the part3 of PARTC
+
+javac -classpath .:lib/activation.jar:lib/mail.jar *.java
+java -classpath .:lib/activation.jar:lib/mail.jar SendEmail Server Username password
+
+For example
+
+java -classpath .:lib/activation.jar:lib/mail.jar SendEmail  smtp.gmail.com fangxianzheng1234@gmail.com fxyCEO9Qeq
+
+Explan:
+
+This file is to fetch the content from the gmail.
+It don't need to read file
+

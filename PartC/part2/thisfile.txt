@@ -1,0 +1,8 @@
+Server: smtp.gmail.com
+User: fangxianzheng1234@gmail.com
+Password: fxyCEO9Qeq
+To: 1034545111@qq.com
+CC: mark.ffang@gmail.com
+BCC: comma separated list of tertiary recipients
+Subject: Email subject
+Body: Hello

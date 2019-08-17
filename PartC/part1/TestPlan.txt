@@ -1,0 +1,13 @@
+Under the Linux
+
+javac -classpath .:lib/activation.jar:lib/mail.jar *.java
+java -classpath .:lib/activation.jar:lib/mail.jar SendEmail thisfile.txt
+
+The format in thisfile can not change;
+
+Server User Password is already in less secure, so it is best not be changed.
+
+the context of To CC BCC Subject Boday can be changed.
+
+the context of To and CC should be valid.
+

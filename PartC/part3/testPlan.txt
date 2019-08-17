@@ -1,0 +1,13 @@
+Under the Linux
+
+javac -classpath .:lib/activation.jar:lib/mail.jar *.java
+java -classpath .:lib/activation.jar:lib/mail.jar SendEmail Server Username password
+
+For example
+
+java -classpath .:lib/activation.jar:lib/mail.jar SendEmail  smtp.gmail.com fangxianzheng1234@gmail.com a334957974
+
+Explan:
+
+This file is to fetch the content from the gmail.
+It don't need to read file
